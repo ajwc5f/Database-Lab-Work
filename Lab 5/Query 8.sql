@@ -1,0 +1,1 @@
+SELECT Name, IndepYear, Region FROM country, countrylanguage WHERE (countrylanguage.Language = 'English') AND (country.Code = countryLanguage.CountryCode) ORDER BY Region ASC, country.Name ASC;

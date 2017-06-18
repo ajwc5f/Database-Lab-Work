@@ -1,0 +1,1 @@
+SELECT Name, Continent, GovernmentForm, GNP FROM country WHERE GNP > 200000 ORDER BY country.Name ASC;

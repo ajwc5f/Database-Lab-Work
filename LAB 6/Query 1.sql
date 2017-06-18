@@ -1,0 +1,1 @@
+CREATE VIEW weight AS SELECT person.pid, fname, lname FROM person INNER JOIN body_composition ON (person.pid = body_composition.pid) WHERE body_composition.weight > 140;

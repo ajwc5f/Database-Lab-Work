@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW BMI AS SELECT fname, lname, ROUND(703 * body_composition.weight/POWER(body_composition.height, 2)) AS BMI FROM weight INNER JOIN body_composition ON (weight.pid = body_composition.pid);

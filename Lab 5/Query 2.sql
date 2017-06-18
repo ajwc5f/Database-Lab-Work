@@ -1,0 +1,1 @@
+SELECT Name, District, Population FROM city WHERE city.CountryCode = 'BRA' ORDER BY Name ASC;

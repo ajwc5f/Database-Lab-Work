@@ -1,0 +1,1 @@
+SELECT District, Population FROM city WHERE city.name = 'Springfield' ORDER BY Population DESC;

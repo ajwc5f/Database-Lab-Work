@@ -1,0 +1,1 @@
+SELECT ci.Name, ((ci.Population / co.Population) * 100) AS percentage FROM city AS ci INNER JOIN country AS co ON (ci.ID = co.capital);

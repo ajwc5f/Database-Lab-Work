@@ -1,0 +1,1 @@
+SELECT city.Name, country.Name, city.Population FROM city, country WHERE (city.CountryCode = country.Code) AND (city.Population > 6000000) ORDER BY city.Population DESC;

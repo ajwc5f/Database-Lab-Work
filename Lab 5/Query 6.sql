@@ -1,0 +1,1 @@
+SELECT Name FROM city WHERE city.Name LIKE 'B%' '%s' ORDER BY Population DESC;

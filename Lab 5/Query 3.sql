@@ -1,0 +1,1 @@
+SELECT Name, Continent, SurfaceArea FROM country ORDER BY SurfaceArea ASC LIMIT 20;

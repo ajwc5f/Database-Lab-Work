@@ -1,0 +1,1 @@
+SELECT Name, Region, GNP, GNPOld, ((GNP - GNPOld) / GNPOld) AS realChange FROM country WHERE GNP IS NOT NULL AND GNPOld IS NOT NULL ORDER BY realChange DESC;

@@ -1,0 +1,1 @@
+SELECT fname, lname, weight, height, age FROM person INNER JOIN body_composition USING (pid) ORDER BY height DESC, weight ASC, lname ASC;
